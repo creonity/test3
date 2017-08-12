@@ -39,6 +39,8 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 
+console.log(device.cordova);
+
         console.log('Received Event: ' + id);
     }
 };
